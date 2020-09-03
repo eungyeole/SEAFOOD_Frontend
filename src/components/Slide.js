@@ -6,8 +6,8 @@ const Slide = memo( () => {
 
     const motionOption = { stiffness: 60, daping: 20, precision: 0 }
 
+    
     const Next=()=>{
-        console.log('asd');
         switch(state) {
             case 0:
                 setState(1)
@@ -25,7 +25,7 @@ const Slide = memo( () => {
                 setState(0)
                 break
         }
-        clearTimeout(time)
+        clearTimeout(time);
     }
     const Prev=()=>{
         switch(state) {
@@ -45,11 +45,10 @@ const Slide = memo( () => {
                 setState(3)
                 break
         }
-        clearTimeout(time)
+        clearTimeout(time);
     }
-
     let time = setTimeout(() => {
-        Next()
+        Next();
     }, 6000);
 
     return (

@@ -3,6 +3,7 @@ const { memo } = React
 
 const App = require('./App')
 const Login = require('./Login')
+const Slide = require('./Slide')
 const Productpage = require('./productpage');
 const { BrowserRouter, Route, Switch } = require('react-router-dom');
 
