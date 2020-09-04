@@ -9,6 +9,11 @@ body{
     font-family: 'Do Hyeon', sans-serif;
 }
 
+.slick-dots {
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .bodyWrapperApp {
     margin: 0 140px;
@@ -285,59 +290,47 @@ ul{
     z-index: 101;
 }
 .blue{
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     background-image: url(https://www.sciencetimes.co.kr/wp-content/uploads/2018/08/pacific-size.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 100;
-    opacity: 0;
     border-radius: 25px;
 }
 .red{
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     background-image: url(https://i.pinimg.com/originals/31/70/ba/3170ba7c6f2cb33f466f75bceed42669.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 100;
-    opacity: 0;
     border-radius: 25px;
 }
 .yellow{
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     background-image: url(https://img.huffingtonpost.com/asset/5affcaf21e0000a6048e5f9b.jpeg?cache=IEc23vs0al&ops=1778_1000);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 100;
-    opacity: 0;
     border-radius: 25px;
 }
 .orange{
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     background-image: url(https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?idx=3&simg=201810121444070022672kpm_00.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 100;
-    opacity: 0;
     border-radius: 25px;
 }
 .green {
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     background-image: url(https://previews.123rf.com/images/kouziwang/kouziwang1603/kouziwang160300098/53459682-%ED%95%B4%EC%82%BC.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 100;
-    opacity: 0;
     border-radius: 25px;
+}
+div:focus {
+    outline: none;
 }
 .fa-chevron-right{
     position: relative;
