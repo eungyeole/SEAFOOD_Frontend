@@ -8,7 +8,6 @@ const Productest = memo( () => {
     const [state, setState] = useState("HOME");
     const [productdata, setData] = useState(null);
     const [loading, setLoading] = useState(false);
-    
     const callapi=(stateapi)=>{
         var config = {
             method: 'get',

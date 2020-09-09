@@ -77,7 +77,7 @@ const productpage = memo(() => {
                             </div>
                         </div>
                         <div className="page-btbox">
-                            <div className="page-button">구매하기</div>
+                            <div className="page-button" onClick={()=>window.location.href="/purchasepage?id="+productdata[0][0]}>구매하기</div>
                             <div className="page-button">장바구니</div>
                         </div>
                     </div>

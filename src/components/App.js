@@ -5,7 +5,8 @@ const Header = require('./Header');
 const Slide = require('./Slide');
 const Productlist = require('./productlist');
 const Productpage = require('./productpage');
-const { BrowserRouter, Route } = require('react-router-dom')
+const { BrowserRouter, Route } = require('react-router-dom');
+const Purchasepage = require('./Purchasepage');
 
 const App = memo( () => {
     document.body.style.overflow = 'scrollbar'
